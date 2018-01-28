@@ -4,6 +4,7 @@ const express = require('express'),
 
 app.use(express.static(dist));
 
+
 app.get('/', (request, response) => {
   response.sendFile(`${__dirname}/${dist}/index.html`);
 });
@@ -20,6 +21,8 @@ app.get('/manifest.json', (request, response) => {
   });
 });
 
+
+// start the server
 const listener = app.listen(5000, function () {
   console.log(`Your app is listening on port ${listener.address().port}`);
 });
