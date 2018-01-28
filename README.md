@@ -1,8 +1,7 @@
-# workbox-npm-script
+# x-workbox-npm
 
-This app is the starting point for the official tutorial on adding Workbox
-to NPM script projects. See [Get Started With Workbox For NPM Script][Tutorial]
-to learn how to add Workbox to this app so that the app works offline!
+Based on [Get Started With Workbox For NPM Script][Tutorial].
+[PWA][PWA] with offline support.
 
 Demo: <https://salty-church.glitch.me/>
 
@@ -11,3 +10,4 @@ Edit: <https://glitch.com/edit/#!/salty-church>
 Repo: <https://github.com/bvberkum/x-workbox-npm>
 
 [Tutorial]: https://developers.google.com/web/tools/workbox/get-started/npm-script
+[PWA]: https://developers.google.com/web/progressive-web-apps 
